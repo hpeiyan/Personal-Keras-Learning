@@ -20,3 +20,11 @@ class CatDogNet:
         model.add(layers.Dense(units=1, activation='sigmoid'))
         model.summary()
         return model
+
+    @staticmethod
+    def buildDenseNet(dim):
+        model = models.Sequential()
+        model.add(layers.Dense(256,activation='relu',input_dim=dim))
+        model.add(layers.Dropout(0.5))
+        model.add(layers.Dense(1,activation='sigmoid'))
+        return model
