@@ -8,7 +8,8 @@ class PreProcessData:
     @staticmethod
     def process():
         print(INFO + 'Processing Start.')
-        original_data_dir = r'/Users/Yuseng/Downloads/Deep-Learning-For-Computer-Vision-master/datasets/animals'
+        # original_data_dir = r'/Users/Yuseng/Downloads/Deep-Learning-For-Computer-Vision-master/datasets/animals'
+        original_data_dir = r'/Users/Yuseng/Downloads/all/train'
         base_dir = './cat_and_dog_small'
         ut.ifNoneCreateDirs(base_dir)
 
@@ -68,7 +69,7 @@ class PreProcessData:
             src = os.path.join(original_data_dir, name)
             if not os.path.exists(src):
                 raise FileNotFoundError
-            dst = os.path.join(cat_train_dir, name)
+            dst = os.path.join(dog_train_dir, name)
             shutil.copy(src=src, dst=dst)
 
         fnames = ['dog.{}.jpg'.format(i) for i in range(1000, 1500)]
@@ -76,7 +77,7 @@ class PreProcessData:
             src = os.path.join(original_data_dir, name)
             if not os.path.exists(src):
                 raise FileNotFoundError
-            dst = os.path.join(cat_val_dir, name)
+            dst = os.path.join(dog_val_dir, name)
             shutil.copy(src=src, dst=dst)
 
         fnames = ['dog.{}.jpg'.format(i) for i in range(1500, 2000)]
@@ -84,7 +85,7 @@ class PreProcessData:
             src = os.path.join(original_data_dir, name)
             if not os.path.exists(src):
                 raise FileNotFoundError
-            dst = os.path.join(cat_test_dir, name)
+            dst = os.path.join(dog_test_dir, name)
             shutil.copy(src=src, dst=dst)
 
         print(INFO + 'Processing End.')
