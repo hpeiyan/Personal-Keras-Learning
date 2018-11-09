@@ -23,6 +23,12 @@ batch_size = 1
 
 
 def extract_feature(directory, sample_count):
+    '''
+    提取特征
+    :param directory:
+    :param sample_count:
+    :return:
+    '''
     feature = np.zeros(shape=(sample_count, 4, 4, 512))
     # block5_pool (MaxPooling2D)   (None, 4, 4, 512)
     label = np.zeros(shape=(sample_count))
