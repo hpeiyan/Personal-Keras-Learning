@@ -7,26 +7,40 @@ import matplotlib.pyplot as plt
 
 train_dir, val_dir, test_dir = PreProcessData.process()
 
-model = CatDogNet.build(150, 150, 3, 1)
+model = CatDogNet.buildWithDropout(150, 150, 3, 1)
 model.compile(loss='binary_crossentropy', optimizer=optimizers.RMSprop(lr=1e-4), metrics=['acc'])
 
-train_datagen = ImageDataGenerator(rescale=1 / 255.0)
-train_gen = train_datagen.flow_from_directory(directory=train_dir, target_size=(150, 150), batch_size=20,
+train_datagen = ImageDataGenerator(rescale=1 / 255.0,
+                                   rotation_range=40,
+                                   width_shift_range=0.2,
+                                   height_shift_range=0.2,
+                                   shear_range=0.2,
+                                   zoom_range=0.2,
+                                   horizontal_flip=True,
+                                   fill_mode='nearest')
+train_gen = train_datagen.flow_from_directory(directory=train_dir,
+                                              target_size=(150, 150),
+                                              batch_size=20,
                                               class_mode='binary')
 
-val_datagen = ImageDataGenerator(rescale=1 / 255.0)
-val_gen = val_datagen.flow_from_directory(directory=val_dir, target_size=(150, 150), batch_size=20, class_mode='binary')
+val_datagen = ImageDataGenerator(rescale=1 / 255.0) # couldn't generate in validation or test Dataset
+val_gen = val_datagen.flow_from_directory(directory=val_dir,
+                                          target_size=(150, 150),
+                                          batch_size=20,
+                                          class_mode='binary')
 
 test_datagen = ImageDataGenerator(rescale=1 / 255.0)
-test_gen = test_datagen.flow_from_directory(directory=test_dir, target_size=(150, 150), batch_size=20,
+test_gen = test_datagen.flow_from_directory(directory=test_dir,
+                                            target_size=(150, 150),
+                                            batch_size=20,
                                             class_mode='binary')
 
 history = model.fit_generator(generator=train_gen,
-                              steps_per_epoch=100,
-                              epochs=30,
+                              steps_per_epoch=50,
+                              epochs=5,
                               validation_data=val_gen,
                               validation_steps=50)
-modelSavePath = r'./model.h5'
+modelSavePath = r'./cat_dog_model_2.h5'
 model.save(modelSavePath)
 
 acc = history.history['acc']
