@@ -1,5 +1,5 @@
-from Page5.DogVsCat.BuildCatDogNet import CatDogNet
-from Page5.DogVsCat.ProcessData import PreProcessData
+from BuildCatDogNet import CatDogNet
+from ProcessData import PreProcessData
 from keras import optimizers
 
 from keras.preprocessing.image import ImageDataGenerator

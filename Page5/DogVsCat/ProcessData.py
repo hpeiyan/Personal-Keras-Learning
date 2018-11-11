@@ -1,4 +1,6 @@
 import os, shutil
+import sys
+sys.path.append('../..')
 import Utils as ut
 
 INFO = '[INFO] '
