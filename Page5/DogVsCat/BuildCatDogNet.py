@@ -82,13 +82,18 @@ class CatDogNet:
         vgg = VGG16(include_top=False,
                     weights='imagenet',
                     input_shape=shape)
-        # vgg.trainable = False // 在这里开总的之后，下面的layer设置不起作用
+        vgg.trainable = True
         vgg.summary()
+        set_trainable = False
         for layer in vgg.layers:
             if layer.name == 'block5_conv1':
+                set_trainable = True
+
+            if set_trainable:
                 layer.trainable = True
             else:
                 layer.trainable = False
+
         vgg.summary()
 
         model = models.Sequential()
