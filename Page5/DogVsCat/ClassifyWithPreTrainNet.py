@@ -2,8 +2,10 @@ from keras.applications import VGG16
 import os
 import numpy as np
 from keras.preprocessing.image import ImageDataGenerator
+import sys
+sys.path.append('../..')
 from Utils import INFO
-from Page5.DogVsCat.BuildCatDogNet import CatDogNet
+from BuildCatDogNet import CatDogNet
 from keras import optimizers
 import matplotlib.pyplot as plt
 

@@ -1,4 +1,4 @@
-from Page5.DogVsCat.BuildCatDogNet import CatDogNet
+from BuildCatDogNet import CatDogNet
 import os
 from keras.optimizers import RMSprop
 from keras.preprocessing.image import ImageDataGenerator
