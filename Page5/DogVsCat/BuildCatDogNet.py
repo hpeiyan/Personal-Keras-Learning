@@ -71,3 +71,29 @@ class CatDogNet:
 
         model.summary()
         return model
+
+    @staticmethod
+    def BuildFintuneVGGNet(shape):
+        '''
+        fine tune pates of VGG net
+        :param shape:
+        :return:
+        '''
+        vgg = VGG16(include_top=False,
+                    weights='imagenet',
+                    input_shape=shape)
+        # vgg.trainable = False // 在这里开总的之后，下面的layer设置不起作用
+        vgg.summary()
+        for layer in vgg.layers:
+            if layer.name == 'block5_conv1':
+                layer.trainable = True
+            else:
+                layer.trainable = False
+        vgg.summary()
+
+        model = models.Sequential()
+        model.add(vgg)
+        model.add(layers.Flatten())
+        model.add(layers.Dense(256, activation='relu'))
+        model.add(layers.Dense(1, activation='softmax'))
+        return model

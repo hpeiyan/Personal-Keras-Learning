@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbc48a69-e4ec-43d5-9e13-9e636743be48" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithFreezeNet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithFineTuneNet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/KerasLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KerasLearning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page5/DogVsCat/BuildCatDogNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page5/DogVsCat/BuildCatDogNet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page5/DogVsCat/UserPreTrainNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithPreTrainNet.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,12 +17,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/KerasLearning$UserPreTrainNet.coverage" NAME="UserPreTrainNet Coverage Results" MODIFIED="1541683795645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page5/DogVsCat" />
-    <SUITE FILE_PATH="coverage/KerasLearning$FirstNet.coverage" NAME="FirstNet Coverage Results" MODIFIED="1541601405123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page5" />
     <SUITE FILE_PATH="coverage/KerasLearning$ProcessData.coverage" NAME="ProcessData Coverage Results" MODIFIED="1541634596509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page5/DogVsCat" />
-    <SUITE FILE_PATH="coverage/KerasLearning$Classify.coverage" NAME="Classify Coverage Results" MODIFIED="1541679671303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page5/DogVsCat" />
+    <SUITE FILE_PATH="coverage/KerasLearning$Classify.coverage" NAME="Classify Coverage Results" MODIFIED="1541857711998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page5/DogVsCat" />
+    <SUITE FILE_PATH="coverage/KerasLearning$ClassifyWithFineTuneNet.coverage" NAME="ClassifyWithFineTuneNet Coverage Results" MODIFIED="1541901498317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page5/DogVsCat" />
     <SUITE FILE_PATH="coverage/Personal_Keras_Learning$UserPreTrainNet.coverage" NAME="UserPreTrainNet Coverage Results" MODIFIED="1541729269536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page5/DogVsCat" />
     <SUITE FILE_PATH="coverage/KerasLearning$MnistTest.coverage" NAME="MnistTest Coverage Results" MODIFIED="1541603510379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page5" />
+    <SUITE FILE_PATH="coverage/KerasLearning$FirstNet.coverage" NAME="FirstNet Coverage Results" MODIFIED="1541601405123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page5" />
+    <SUITE FILE_PATH="coverage/KerasLearning$UserPreTrainNet.coverage" NAME="UserPreTrainNet Coverage Results" MODIFIED="1541683795645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page5/DogVsCat" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -40,62 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClassifyWithPreTrainNet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithPreTrainNet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassifyWithFreezeNet.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithFreezeNet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassifyWithDataAugment.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithDataAugment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataAugmentShow.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/DataAugmentShow.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/keras_preprocessing/image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="955" column="57" lean-forward="true" selection-start-line="955" selection-start-column="57" selection-end-line="955" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildCatDogNet.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BuildCatDogNet.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/BuildCatDogNet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+            <state relative-caret-position="220">
+              <caret line="84" column="58" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -103,11 +53,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Classify.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/Classify.py">
+      <file leaf-file-name="ClassifyWithFreezeNet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithFreezeNet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            <state relative-caret-position="320">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassifyWithFineTuneNet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithFineTuneNet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -145,8 +107,9 @@
         <option value="$PROJECT_DIR$/Page5/DogVsCat/UserPreTrainNet.py" />
         <option value="$PROJECT_DIR$/Page5/DogVsCat/ProcessData.py" />
         <option value="$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithPreTrainNet.py" />
-        <option value="$PROJECT_DIR$/Page5/DogVsCat/BuildCatDogNet.py" />
         <option value="$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithFreezeNet.py" />
+        <option value="$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithFineTuneNet.py" />
+        <option value="$PROJECT_DIR$/Page5/DogVsCat/BuildCatDogNet.py" />
       </list>
     </option>
   </component>
@@ -172,21 +135,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Personal-Keras-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Personal-Keras-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="KerasLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KerasLearning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Personal-Keras-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Personal-Keras-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="KerasLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KerasLearning" type="462c0819:PsiDirectoryNode" />
               <item name="Page5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Personal-Keras-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Personal-Keras-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="KerasLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KerasLearning" type="462c0819:PsiDirectoryNode" />
               <item name="Page5" type="462c0819:PsiDirectoryNode" />
               <item name="DogVsCat" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -194,16 +158,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Page5/DogVsCat" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Page5/DogVsCat" />
     </key>
@@ -220,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ClassifyWithFreezeNet">
+  <component name="RunManager" selected="Python.ClassifyWithFineTuneNet">
     <configuration name="Classify" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="KerasLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,6 +201,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Page5/DogVsCat/Classify.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ClassifyWithFineTuneNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="KerasLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Page5/DogVsCat" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithFineTuneNet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,25 +241,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithFreezeNet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="MnistTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="KerasLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Page5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Page5/MnistTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
@@ -317,19 +283,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.MnistTest" />
       <item itemvalue="Python.ProcessData" />
       <item itemvalue="Python.Classify" />
       <item itemvalue="Python.UserPreTrainNet" />
       <item itemvalue="Python.ClassifyWithFreezeNet" />
+      <item itemvalue="Python.ClassifyWithFineTuneNet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ClassifyWithFineTuneNet" />
+        <item itemvalue="Python.Classify" />
         <item itemvalue="Python.ClassifyWithFreezeNet" />
         <item itemvalue="Python.UserPreTrainNet" />
-        <item itemvalue="Python.Classify" />
         <item itemvalue="Python.ProcessData" />
-        <item itemvalue="Python.MnistTest" />
       </list>
     </recent_temporary>
   </component>
@@ -362,25 +328,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="right" x="0" y="0" width="310" height="677" id="Documentation" order="5" sideWeight="0.50128204" side_tool="true" weight="0.21101573" />
+      <window_info anchor="right" x="0" y="0" width="270" height="577" id="Documentation" order="5" sideWeight="0.50128204" side_tool="true" weight="0.21048386" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" weight="0.32948717" />
-      <window_info active="true" anchor="bottom" x="-1287" y="-157" width="1287" height="1057" id="Run" order="2" type="FLOATING" visible="true" weight="0.43461537" />
+      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32820514" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32820514" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20028612" />
+      <window_info anchor="bottom" x="0" y="23" width="1280" height="777" id="Run" order="2" type="FLOATING" weight="0.43461537" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32794118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22258064" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32983872" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49871793" weight="0.23104435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -410,10 +376,106 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/DataAugmentShow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/keras_preprocessing/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18880">
+          <caret line="955" column="57" lean-forward="true" selection-start-line="955" selection-start-column="57" selection-end-line="955" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/BuildCatDogNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/Classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithFreezeNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithPreTrainNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithDataAugment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/DataAugmentShow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/keras_preprocessing/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18880">
+          <caret line="955" column="57" lean-forward="true" selection-start-line="955" selection-start-column="57" selection-end-line="955" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/BuildCatDogNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/Classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithFreezeNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithPreTrainNet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1408">
@@ -435,9 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1562">
           <caret line="71" column="51" lean-forward="true" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -479,9 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -527,9 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,36 +675,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-472">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithDataAugment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/DataAugmentShow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/Classify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="385">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/keras_preprocessing/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="955" column="57" selection-start-line="955" selection-start-column="57" selection-end-line="955" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/DataAugmentShow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithDataAugment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithPreTrainNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
+        <state relative-caret-position="600">
           <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
@@ -659,29 +716,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/BuildCatDogNet.py">
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithFreezeNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        <state relative-caret-position="320">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/miniconda3/lib/python3.6/site-packages/keras_preprocessing/image.py">
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithFineTuneNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="955" column="57" lean-forward="true" selection-start-line="955" selection-start-column="57" selection-end-line="955" selection-end-column="57" />
+        <state relative-caret-position="260">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/ClassifyWithFreezeNet.py">
+    <entry file="file://$PROJECT_DIR$/Page5/DogVsCat/BuildCatDogNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="220">
+          <caret line="84" column="58" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
