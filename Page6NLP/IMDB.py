@@ -70,11 +70,9 @@ for word, i in world_index.items():
         if emb_vector is not None:
             embedding_matrric[i] = emb_vector
 
-model = EmbbedingNet.buildEmbnet(max_words, embedding_dim, maxlen)
-model.layers[0].set_weights([embedding_matrric])
-model.layers[0].trainable = False
-model.summary()
-model.compile(optimizer=RMSprop(lr=0.001),
+model = EmbbedingNet.buildEmbNetWithPreTrain(max_words, embedding_dim, maxlen, embedding_matrric)
+# model = EmbbedingNet.buildEmbNetWithoutPreTrain(max_words, embedding_dim, maxlen)
+model.compile(optimizer=RMSprop(),
               loss='binary_crossentropy',
               metrics=['acc'])
 history = model.fit(x_train, y_train,
@@ -96,3 +94,5 @@ plt.plot(epochs, train_loss, 'bo', label='train_loss')
 plt.plot(epochs, val_loss, 'b', label='val_loss')
 plt.legend()
 plt.show()
+
+model.save(r'./pre_train_glove_model.h5')
