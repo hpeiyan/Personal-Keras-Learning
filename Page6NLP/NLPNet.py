@@ -24,3 +24,12 @@ class EmbbedingNet:
         model.add(layers.Dense(1, activation='sigmoid'))
         model.summary()
         return model
+
+    @staticmethod
+    def buildBasicMLNet(shape):
+        model = models.Sequential()
+        model.add(layers.Flatten(input_shape=shape))
+        model.add(layers.Dense(32,activation='relu'))
+        model.add(layers.Dense(1))
+        model.summary()
+        return model

@@ -8,7 +8,8 @@ import matplotlib.pyplot as plt
 
 texts = []
 labels = []
-main_dir = r'/Users/zzc20160628-14/Downloads/aclImdb'
+# main_dir = r'/Users/zzc20160628-14/Downloads/aclImdb'
+main_dir = r'/home/bigdata/Documents/Personal-Keras-Learning/data/aclImdb'
 train_dir = os.path.join(main_dir, 'train')
 test_dir = os.path.join(main_dir, 'test')
 classes = ['neg', 'pos']
@@ -51,7 +52,8 @@ print('the shape of y_train: {}'.format(y_train.shape))
 print('the shape of x_val: {}'.format(x_train.shape))
 print('the shape of y_val: {}'.format(y_train.shape))
 
-vol_dir = r'/Users/zzc20160628-14/Downloads/glove.6B'
+# vol_dir = r'/Users/zzc20160628-14/Downloads/glove.6B'
+vol_dir = r'/home/bigdata/Documents/Personal-Keras-Learning/data/glove.6B'
 embedding_index = {}
 with open(os.path.join(vol_dir, 'glove.6B.100d.txt')) as f:
     for line in f:
@@ -77,7 +79,7 @@ model.compile(optimizer=RMSprop(),
               metrics=['acc'])
 history = model.fit(x_train, y_train,
                     batch_size=32,
-                    epochs=10,
+                    epochs=50,
                     validation_data=(x_val, y_val))
 train_acc = history.history['acc']
 val_acc = history.history['val_acc']

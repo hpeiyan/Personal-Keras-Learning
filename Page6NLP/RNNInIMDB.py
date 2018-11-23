@@ -25,7 +25,7 @@ model.compile(optimizer='rmsprop',
 
 history = model.fit(x_train, y_train,
                     batch_size=batch_size,
-                    epochs=100,
+                    epochs=10,
                     validation_split=0.2)
 plotHistory(history)
 

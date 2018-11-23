@@ -11,6 +11,10 @@ def INFO():
     return '[INFO] '
 
 
+def INFOWithResult(content):
+    print('[INFO] ' + str(content) + '\n')
+
+
 def plotHistory(history):
     train_acc = history.history['acc']
     val_acc = history.history['val_acc']

@@ -5,7 +5,8 @@ import numpy as np
 from keras.models import load_model
 from Page6NLP.NLPNet import EmbbedingNet
 
-test_main_dir = r'/Users/zzc20160628-14/Downloads/aclImdb/test'
+# test_main_dir = r'/Users/zzc20160628-14/Downloads/aclImdb/test'
+test_main_dir = r'/home/bigdata/Documents/Personal-Keras-Learning/data/aclImdb/test'
 result_types = ['neg', 'pos']
 results = []
 labels = []
@@ -25,6 +26,7 @@ print('the length of results: {}'.format(len(results)))
 print('the length of labels: {}'.format(len(labels)))
 
 tokenizer = Tokenizer(num_words=max_words)
+tokenizer.fit_on_texts(texts=results)
 sequence = tokenizer.texts_to_sequences(texts=results)
 x_test = pad_sequences(sequences=sequence, maxlen=maxlen)
 y_test = np.asarray(labels, dtype='float32')
