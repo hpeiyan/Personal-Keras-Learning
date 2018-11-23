@@ -65,7 +65,7 @@ model.compile(optimizer=optimizers.RMSprop(lr=1e-5),
               metrics=['acc'])
 history = model.fit(x=train_fea,
                     y=train_lab,
-                    epochs=20,
+                    epochs=50,
                     validation_data=(val_fea, val_lab))
 acc = history.history['acc']
 loss = history.history['loss']

@@ -36,8 +36,8 @@ test_gen = test_datagen.flow_from_directory(directory=test_dir,
                                             class_mode='binary')
 
 history = model.fit_generator(generator=train_gen,
-                              steps_per_epoch=50,
-                              epochs=5,
+                              steps_per_epoch=100,
+                              epochs=50,
                               validation_data=val_gen,
                               validation_steps=50)
 modelSavePath = r'./cat_dog_model_2.h5'

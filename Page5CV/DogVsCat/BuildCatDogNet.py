@@ -67,7 +67,7 @@ class CatDogNet:
         model.add(vgg)
         model.add(layers.Flatten())
         model.add(layers.Dense(256, activation='relu'))
-        model.add(layers.Dense(1, activation='softmax'))
+        model.add(layers.Dense(1, activation='sigmoid'))
 
         model.summary()
         return model
@@ -95,5 +95,5 @@ class CatDogNet:
         model.add(vgg)
         model.add(layers.Flatten())
         model.add(layers.Dense(256, activation='relu'))
-        model.add(layers.Dense(1, activation='softmax'))
+        model.add(layers.Dense(1, activation='sigmoid'))
         return model

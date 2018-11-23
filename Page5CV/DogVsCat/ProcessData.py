@@ -10,9 +10,9 @@ class PreProcessData:
         print(INFO + 'Processing Start.')
         # original_data_dir = r'/Users/Yuseng/Downloads/Deep-Learning-For-Computer-Vision-master/datasets/animals'
         # original_data_dir = r'/Users/Yuseng/Downloads/all/train'
-        # original_data_dir = r'/home/bigdata/Documents/DeepLearningProject/CatVsDog/train'
+        original_data_dir = r'/home/bigdata/Documents/DeepLearningProject/CatVsDog/train'
         # original_data_dir = r'/Users/zzc20160628-14/Downloads/cat_dog_data/train'
-        original_data_dir = r'/home/ubuntu/DeepLearningProject/data/train'
+        # original_data_dir = r'/home/ubuntu/DeepLearningProject/data/train'
         base_dir = './cat_and_dog_small'
         ut.ifNoneCreateDirs(base_dir)
 

@@ -24,7 +24,7 @@ model.compile(optimizer=RMSprop(lr=1e-5),
               metrics=['acc'])
 history = model.fit_generator(generator=train_gen,
                               steps_per_epoch=50,
-                              epochs=20,
+                              epochs=50,
                               validation_data=val_gen,
                               validation_steps=50)
 model.save('./ClassifyWithFreezeNet.h5')
@@ -34,13 +34,13 @@ loss = history.history['loss']
 val_loss = history.history['val_loss']
 
 epochs = range(1, len(acc) + 1)
-plt.plot(epochs, acc, labels='train acc')
-plt.plot(epochs, val_acc, labels='val acc')
+plt.plot(epochs, acc, label='train acc')
+plt.plot(epochs, val_acc, label='val acc')
 plt.legend()
 
 plt.figure()
-plt.plot(epochs, loss, labels='train loss')
-plt.plot(epochs, val_loss, labels='val loss')
+plt.plot(epochs, loss, label='train loss')
+plt.plot(epochs, val_loss, label='val loss')
 plt.legend()
 
 plt.show()

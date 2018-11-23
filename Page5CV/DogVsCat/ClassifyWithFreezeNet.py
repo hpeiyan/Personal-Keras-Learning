@@ -34,13 +34,13 @@ loss = history.history['loss']
 val_loss = history.history['val_loss']
 
 epochs = range(1, len(acc) + 1)
-plt.plot(epochs, acc, labels='train acc')
-plt.plot(epochs, val_acc, labels='val acc')
+plt.plot(epochs, acc, 'bo', label='train acc')
+plt.plot(epochs, val_acc, 'b', label='val acc')
 plt.legend()
 
 plt.figure()
-plt.plot(epochs, loss, labels='train loss')
-plt.plot(epochs, val_loss, labels='val loss')
+plt.plot(epochs, loss, 'bo', label='train loss')
+plt.plot(epochs, val_loss, 'b', label='val loss')
 plt.legend()
 
 plt.show()
