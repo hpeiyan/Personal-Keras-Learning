@@ -33,3 +33,11 @@ class EmbbedingNet:
         model.add(layers.Dense(1))
         model.summary()
         return model
+
+    @staticmethod
+    def buildGRUNet(shape):
+        model = models.Sequential()
+        model.add(layers.GRU(32,input_shape=shape))
+        model.add(layers.Dense(1))
+        model.summary()
+        return model

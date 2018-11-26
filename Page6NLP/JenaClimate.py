@@ -3,6 +3,7 @@ from Utils import INFOWithResult, plotHistory
 import numpy as np
 import matplotlib.pyplot as plt
 from NLPNet import EmbbedingNet
+from keras.optimizers import RMSprop
 
 INFOWithResult('loading data')
 main_dir = r'/home/bigdata/Documents/Personal-Keras-Learning/data/jena_climate'
@@ -106,9 +107,14 @@ test_gen = generator(data=float_data,
                      batch_size=batch_size)
 
 INFOWithResult('launch generator')
+
+# index = 0
 # for sample, label in train_gen:
+#     if index > 5:
+#         break;
 #     INFOWithResult(sample)
 #     INFOWithResult(label)
+#     index += 1
 
 val_steps = (300000 - 200001 - lookback)
 test_steps = (len(float_data) - 300001 - lookback)
@@ -126,11 +132,12 @@ def evaluate_naive_method():
 
 # evaluate_naive_method()
 
-model = EmbbedingNet.buildBasicMLNet(shape=(lookback // step, float_data.shape[-1]))
-model.compile(optimizer='rmsprop',
-              loss='mae')
-history = model.fit_generator(generator=train_gen,
-                              steps_per_epoch=50,
+# model = EmbbedingNet.buildBasicMLNet(shape=(lookback // step, float_data.shape[-1]))
+model = EmbbedingNet.buildGRUNet(shape=(None, float_data.shape[-1]))
+model.compile(optimizer=RMSprop(),
+              loss='mae', metrics=['acc'])
+history = model.fit_generator(train_gen,
+                              steps_per_epoch=500,
                               epochs=20,
                               validation_data=val_gen,
                               validation_steps=val_steps)
